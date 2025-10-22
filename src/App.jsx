@@ -1,17 +1,13 @@
 
 import './App.css'
-import CounterApp from './components/counterApp/counterApp'
-import Eventhandling from './components/counterApp/eventHandling/Eventhandling'
-
+import CounterApp from './components/CounterApp'
 
 function App() {
 
 
   return (
     <>
-
-   <CounterApp/>
-   <Eventhandling/>
+  <CounterApp/>
     </>
   )
 }
